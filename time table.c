@@ -2,10 +2,16 @@
 
 int main(){
     int period;
-    printf("enter period(1-6):");
+    printf("1st period\n");
+    printf("2nd period\n");
+    printf("3rd period\n");
+    printf("4th period\n");
+    printf("5th period\n");
+    printf("6th period\n");
+    printf("enter period\n");
     scanf("%d",&period);
     switch(period){
-    case 1:
+        case 1:
         printf("7:15am-8;15am : CPL\n");
         break;
 
